@@ -11,17 +11,33 @@ html {
     font-size: 1.6rem;
     height: 5rem;
 }
-.main
-.aside {
+.logo,
+.nav {
     display: inline-block;
 }
-.main {
-    background: green;
-    width: 69%;
-    height: 50rem;
+.nav li {
+    display: inline-block;
 }
 .aside {
+    display: inline-block;
+    padding: 1rem;
     background: blue;
-    width: 30%;
+    width: 25vw;
     height: 50rem;
+}
+.aside section {
+    background: pink;
+    margin-bottom: 1rem;
+    height: 15rem;
+    border: 0.01rem solid black;
+}
+.main {
+    display: inline-block;
+    background: green;
+    width: 73vw;
+    height: 50rem;
+}
+.footer {
+    background: yellow;
+    height: 3rem;
 }
